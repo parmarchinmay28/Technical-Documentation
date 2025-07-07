@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Technical Documentation</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav id=navbar>
+        <header>
+          <h1>DSA Document</h1>
+        </header>
+        <a class="nav-link" href="#DSA">DSA</a>
+        <a class="nav-link" href="#Array">Array</a>
+        <a class="nav-link" href="#HashMap">HashMap</a>
+        <a class="nav-link" href="#Stack">Stack</a>
+        <a class="nav-link" href="#Queue">Queue</a>
+        <a class="nav-link" href="#Priority_Queue(Heap)">Priority Queue(Heap)</a>
+      </nav>
+    <main id="main-doc">
+      
+      <section class="main-section" id="DSA">
+        <header>
+          <h2>DSA</h2>
+        </header>
+        <ul>
+          <li><p>DSA stands for Data Structures & Algorithms</p></li>
+          <li><p>Data Structures are the structures in which we store data</p></li>
+        </ul>
+        <p>Algoriths are how we store data</p>
+      </section>
+      <section class="main-section" id="Array">
+        <header>
+          <h2>Array</h2>
+        </header>
+        <ul>
+          <li><p>A fixed-size, indexed data structure used to store elements of the same type.</p></li>
+          <li><p>Provides O(1) access time but resizing is not allowed after declaration.</p></li>
+        </ul>
+        <code>
+            int[] arr = new int[5]; // declaration
+            int[] arr2 = {1, 2, 3}; // initialization with values
+        </code>
+        </pre>
+      </section>
+      <section class="main-section" id="HashMap">
+        <header>
+          <h2>HashMap</h2>
+        </header>
+        <ul>
+          <li><p>Stores key-value pairs with average O(1) time for insertion, deletion, and lookup.</p></li>
+          <li><p>Keys must be unique, and hash functions are used internally.</p></li>
+        </ul>
+        <code>
+            HashMap<String, Integer> map = new HashMap<>();
+        </code>
+        
+      </section>
+      <section class="main-section" id="Stack">
+        <header>
+          <h2>Stack</h2>
+        </header>
+        <ul>
+          <li><p>LIFO (Last-In-First-Out) data structure useful for undo operations, recursion, etc.</p></li>
+          <li><p>Push and pop operations are done from the top of the stack.</p></li>
+        </ul>
+        
+        <code>
+            Stack<Integer> stack = new Stack<>();
+        </code>
+        
+      </section>
+      <section class="main-section" id="Queue">
+        <header>
+          <h2>Queue</h2>
+        </header>
+        <ul>
+          <li><p>FIFO (First-In-First-Out) structure where elements are added at the rear and removed from the front.</p></li>
+          <li><p>Used in scheduling and breadth-first search (BFS).</p></li>
+        </ul>
+        
+        <code>
+            Queue<Integer> queue = new LinkedList<>();
+        </code>
+      </section>
+      <section class="main-section" id="Priority_Queue(Heap)">
+        <header>
+          <h2>Priority Queue(Heap)</h2>
+        </header>
+        <ul>
+          <li><p>A special queue where elements are ordered based on priority (min by default in Java).</p></li>
+          <li><p>Used in algorithms like Dijkstra’s and Huffman coding.</p></li>
+        </ul>
+        <p>Code for initializing PriorityQueue in java</p>
+        
+        <code>
+            PriorityQueue<Integer> pq = new PriorityQueue<>(); // min-heap by default
+        </code>
+        
+      </section>
+    </main>
+  </body>
+</html>
